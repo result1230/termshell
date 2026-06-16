@@ -1,0 +1,112 @@
+body {
+	background-color: #DCDCDC;
+	font-family: Arial, monospace;
+}
+
+header {
+	background-color: white;
+	text-align: left;
+	padding: 20px;
+}
+
+header img {
+	margin-left: 50px;
+	width: 200px;
+	height: auto;
+}
+
+header h3 {
+	margin-left: 300px;
+	font-size: 40px;
+	margin-top: -150px;
+}
+
+header a {
+	margin-left: 25px;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+a {
+	background-color: black;
+	color: white;
+	border-radius: 50px;
+	box-shadow: 10px 10px 10px gray;
+	transition: all 0.3s ease;
+	padding: 20px;
+}
+
+a:hover {
+	padding: 30px;
+	background-color: #222222;
+}
+
+button {
+	background-color: black;
+	color: white;
+	border-radius: 50px;
+	box-shadow: 10px 10px 10px gray;
+	transition: all 0.3s ease;
+	padding: 20px;
+	font-size: 16px;
+}
+
+button:hover {
+	padding: 30px;
+	background-color: #222222;
+}
+
+div {
+	background-color: white;
+	border-radius: 50px;
+	box-shadow: 10px 10px 10px gray;
+	transition: all 0.3s ease;
+	padding: 20px;
+	text-align: center;
+}
+
+ol {
+	text-align: center;
+	list-style-position: inside;
+}
+
+#photo {
+	width: 600px;
+	height: auto;
+	margin-left: 1000px;
+	margin-top: -300px;
+	border-radius: 50px;
+}
+
+#whatis {
+	margin-left: 100px;
+	margin-right: 1000px;
+	padding: 50px;
+}
+
+#news {
+	margin-right: 100px;
+	margin-left: 1000px;
+	padding: 50px;
+}
+
+#install {
+	margin-left: 100px;
+	margin-right: 1000px;
+	padding: 50px;
+	margin-top: -482px;
+}
+
+footer {
+	background-color: white;
+	text-align: right;
+	padding: 20px;
+}
+
+footer a {
+	margin-right: 25px;
+}
+
+footer h3 {
+	margin-right: 25px;
+}

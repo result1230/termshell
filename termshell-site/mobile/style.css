@@ -1,0 +1,94 @@
+body {
+	background-color: #DCDCDC;
+	font-family: Arial, monospace;
+	text-align: center;
+}
+
+header {
+	background-color: white;
+	text-align: left;
+	padding: 20px;
+}
+
+header img {
+	margin-left: 10px;
+	width: 100px;
+	height: auto;
+}
+
+header h3 {
+	margin-left: 110px;
+	font-size: 20px;
+	margin-top: -80px;
+}
+
+header button {
+	margin-left: 25px;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+a {
+	background-color: black;
+	color: white;
+	border-radius: 50px;
+	box-shadow: 10px 10px 10px gray;
+	transition: all 0.3s ease;
+	padding: 20px;
+}
+
+a:hover {
+	padding: 30px;
+	background-color: #222222;
+}
+
+button {
+	background-color: black;
+	color: white;
+	border-radius: 50px;
+	box-shadow: 10px 10px 10px gray;
+	transition: all 0.3s ease;
+	padding: 20px;
+	font-size: 16px;
+}
+
+button:hover {
+	padding: 30px;
+	background-color: #222222;
+}
+
+div {
+	background-color: white;
+	border-radius: 50px;
+	box-shadow: 10px 10px 10px gray;
+	transition: all 0.3s ease;
+	padding: 20px;
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+ol {
+	text-align: center;
+	list-style-position: inside;
+}
+
+#photo {
+	width: 350px;
+	height: auto;
+	border-radius: 10px;
+}
+
+footer {
+	background-color: white;
+	text-align: right;
+	padding: 20px;
+}
+
+footer a {
+	margin-right: 25px;
+}
+
+footer h3 {
+	margin-right: 25px;
+}
