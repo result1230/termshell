@@ -21,10 +21,16 @@ header h3 {
 	margin-top: -150px;
 }
 
-header a {
+#mobile {
 	margin-left: 25px;
 	display: inline-block;
-	margin-top: 10px;
+	margin-top: 25px;
+}
+
+#news {
+	margin-left: 50px;
+	display: inline-block;
+	margin-top: 25px;
 }
 
 a {
@@ -84,9 +90,9 @@ ol {
 	padding: 50px;
 }
 
-#news {
-	margin-right: 100px;
-	margin-left: 1000px;
+#new {
+	margin-right: 500px;
+	margin-left: 500px;
 	padding: 50px;
 }
 
@@ -94,7 +100,6 @@ ol {
 	margin-left: 100px;
 	margin-right: 1000px;
 	padding: 50px;
-	margin-top: -482px;
 }
 
 footer {
