@@ -1,10 +1,14 @@
 const downloadBtn = document.getElementById("download");
 const versionBtn = document.getElementById("version");
 
-downloadBtn.onclick = () => {
-	Object.assign(document.createElement('a'), { href: 'termshell.zip', download: 'termshell.zip' }).click();
+versionBtn.onclick = () => {
+	if (document.referrer) {
+		window.history.back();
+	} else {
+		window.location.href = "/";
+	}
 }
 
-versionBtn.onclick = () => {
-	window.history.back();
+downloadBtn.onclick = () => {
+	Object.assign(document.createElement('a'), { href: 'termshell.zip', download: 'termshell.zip' }).click();
 }

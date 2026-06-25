@@ -92,3 +92,8 @@ footer a {
 footer h3 {
 	margin-right: 25px;
 }
+
+#news {
+	margin-left: 10px;
+	display: inline-block;
+}
